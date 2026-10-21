@@ -1,15 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script>
-      window["__codeletBootstrap__"] = JSON.parse(
-        '{"A":"A","B":"20261021-05-123c82d","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Cairo":"YAFdtXpDzlQ,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Open Sans":"YAFdJt8dAY0,1","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","STIX Two Text":"YAHO2joycuk,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}',
-      );
-    </script>
-    <script
-      src="/_sdk/05db820ba1544614.telemetry_sdk.js"
-      integrity="sha512-a7JzkQDDcioSXpM61nxTfeRW7PcxWQy5+BrhyeTFmQFsXJ+Gncm0y50u7fTA7qOPegFnRgqCfa0mGUOK1yjDWQ=="
-    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Wedding of Angelo and Angela</title>
@@ -19,10 +10,10 @@
     />
     <style>
       :root {
-        --blush: #ecd7d0;
-        --wine: #890025;
-        --peach: #d79c80;
-        --teal: #528780;
+        --blush: #8eaf92;
+        --wine: #b1b26a;
+        --peach: #efb8a9;
+        --teal: #db4453;
       }
       * {
         box-sizing: border-box;
@@ -34,20 +25,22 @@
         font-family: "DM Sans", sans-serif;
         background: linear-gradient(
           145deg,
-          #fbf6ef 0%,
+          #f4c984 0%,
           #f7ede4 52%,
           #ecd7d0 100%
         );
       }
       .app-shell {
         width: 100%;
-        min-height: calc(100 * min(var(--vh, 1vh), 1vh));
-        height: calc(100 * min(var(--vh, 1vh), 1vh));
-        overflow: hidden;
+        min-height: 100vh;
+        min-height: 100svh;
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
         position: relative;
         background: linear-gradient(
           145deg,
-          #fbf6ef 0%,
+          #f4c984 0%,
           #f7ede4 52%,
           #ecd7d0 100%
         );
@@ -134,6 +127,8 @@
         text-transform: uppercase;
       }
       .ornament {
+        display: block;
+        margin-inline: auto;
         width: 96px;
         height: 32px;
         color: var(--teal);
@@ -310,7 +305,7 @@
       }
       .invitation-message {
         margin: 0;
-        color: #890025;
+        color: #db4453;
         font:
           700 clamp(24px, 5.8vw, 39px)/1.05 "Parisienne",
           cursive;
@@ -480,6 +475,8 @@
         max-width: 1120px;
         margin: auto;
         text-align: center;
+        display: flex;
+        flex-direction: column;
       }
       .menu-names {
         margin: 14px 0 4px;
@@ -526,17 +523,26 @@
         background: var(--wine);
         margin: 22px auto 30px;
       }
+      /* Swap the menu cards into the Polaroids' original position. */
       .photo-collage {
+        order: 2;
         position: relative;
         width: min(100%, 1040px);
-        height: 380px;
-        margin: 0 auto -18px;
+        height: 350px;
+        /* Creates a clear gap after the menu cards. */
+        margin: 34px auto 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        isolation: isolate;
       }
       .collage-photo {
         position: absolute;
-        width: 392px;
-        height: 368px;
-        padding: 16px 16px 50px;
+        left: 50%;
+        top: 8px;
+        width: clamp(210px, 27vw, 300px);
+        height: auto;
+        padding: 14px 14px 44px;
         border: 1px solid rgba(120, 100, 88, 0.2);
         border-radius: 2px;
         background: #fff;
@@ -551,7 +557,6 @@
       .collage-photo:hover,
       .collage-photo:focus-within {
         z-index: 20;
-        transform: translateY(-8px) scale(1.12) rotate(0deg);
         box-shadow:
           0 24px 34px rgba(72, 20, 28, 0.3),
           inset 0 0 10px rgba(210, 190, 175, 0.18);
@@ -579,33 +584,38 @@
       .collage-photo img {
         display: block;
         width: 100%;
-        height: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
         object-fit: cover;
         border-radius: 5px;
       }
-      .collage-photo-one {
-        left: 0;
-        top: 16px;
-        transform: rotate(-7deg);
-      }
+      /* Three centered Polaroids, with the outer photos exchanged. */
       .collage-photo-two {
-        left: 19%;
-        top: 0;
-        transform: rotate(3deg);
-        z-index: 2;
+        transform: translateX(-82%) rotate(-7deg);
+        z-index: 1;
       }
       .collage-photo-three {
-        right: 19%;
-        top: 3px;
-        transform: rotate(-3deg);
-        z-index: 2;
+        transform: translateX(-50%) rotate(2deg);
+        z-index: 3;
       }
       .collage-photo-four {
-        right: 0;
-        top: 17px;
-        transform: rotate(7deg);
+        transform: translateX(-18%) rotate(7deg);
+        z-index: 2;
+      }
+      .collage-photo-two:hover,
+      .collage-photo-two:focus-within {
+        transform: translateX(-82%) translateY(-8px) scale(1.08) rotate(-2deg);
+      }
+      .collage-photo-three:hover,
+      .collage-photo-three:focus-within {
+        transform: translateX(-50%) translateY(-8px) scale(1.08) rotate(0deg);
+      }
+      .collage-photo-four:hover,
+      .collage-photo-four:focus-within {
+        transform: translateX(-18%) translateY(-8px) scale(1.08) rotate(2deg);
       }
       .tile-grid {
+        order: 1;
         position: relative;
         display: flex;
         width: min(100%, 760px);
@@ -621,7 +631,7 @@
         min-height: 183px;
         margin: 0 -28px;
         border: 1px solid rgba(137, 0, 37, 0.35);
-        background: rgba(236, 215, 208, 0.72);
+        background: #ecd7d0 !important;
         border-radius: 8px;
         padding: 22px 12px;
         display: flex;
@@ -763,10 +773,11 @@
         color: var(--blush);
       }
       .music-control {
-        position: fixed;
-        right: 24px;
-        bottom: 24px;
+        position: relative;
+        right: auto;
+        bottom: auto;
         z-index: 5;
+        margin: 8px auto 0;
         width: 46px;
         height: 46px;
         display: grid;
@@ -791,71 +802,180 @@
         width: 19px;
         height: 19px;
       }
+      /* Tablet and mobile layouts */
       @media (max-width: 700px) {
         .view {
-          padding: 40px 20px;
+          padding: 30px 16px;
         }
+
+        .menu-inner {
+          max-width: 560px;
+        }
+
+        .menu-names {
+          max-width: 100%;
+          overflow-wrap: anywhere;
+        }
+
+        .menu-inner > .menu-names:first-of-type {
+          font-size: clamp(25px, 5.5vw, 36px) !important;
+          line-height: 1.2;
+        }
+
+        .menu-inner > .menu-names:nth-of-type(2) {
+          font-size: clamp(27px, 6vw, 40px) !important;
+          line-height: 1.15;
+        }
+
+        .wedding-date {
+          font-size: clamp(25px, 5.5vw, 32px) !important;
+          gap: 8px;
+        }
+
         .photo-collage {
-          height: 300px;
-          margin-bottom: -14px;
+          width: 100%;
+          height: clamp(210px, 58vw, 270px);
+          margin: 28px auto 8px;
         }
+
         .collage-photo {
-          width: 236px;
-          height: 296px;
-          padding: 12px 12px 42px;
+          top: 5px;
+          width: clamp(112px, 28vw, 185px);
+          height: auto;
+          padding: 9px 9px 31px;
         }
+
         .collage-photo::after {
-          inset: 12px 12px 42px;
+          inset: 9px 9px 30px;
         }
-        .collage-photo-one {
-          left: 0;
-          top: 13px;
-        }
+
         .collage-photo-two {
-          left: 20%;
-          top: 0;
+          transform: translateX(-82%) rotate(-7deg);
         }
+
         .collage-photo-three {
-          right: 20%;
-          top: 2px;
+          transform: translateX(-50%) rotate(2deg);
         }
+
         .collage-photo-four {
-          right: 0;
-          top: 13px;
+          transform: translateX(-18%) rotate(7deg);
         }
+
+        .collage-photo-two:hover,
+        .collage-photo-two:focus-within {
+          transform: translateX(-82%) translateY(-5px) scale(1.03) rotate(-2deg);
+        }
+
+        .collage-photo-three:hover,
+        .collage-photo-three:focus-within {
+          transform: translateX(-50%) translateY(-5px) scale(1.03) rotate(0deg);
+        }
+
+        .collage-photo-four:hover,
+        .collage-photo-four:focus-within {
+          transform: translateX(-18%) translateY(-5px) scale(1.03) rotate(2deg);
+        }
+
+        /* A 2-by-2 grid avoids squeezing four cards on narrow screens. */
         .tile-grid {
-          width: calc(100% + 24px);
-          min-height: 238px;
-          margin-left: -12px;
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 14px;
+          width: 100%;
+          min-height: 0;
+          margin: 12px auto 0;
+          align-items: stretch;
         }
-        .menu-tile {
-          width: clamp(132px, 29vw, 180px);
-          min-height: 152px;
-          margin: 0 -22px;
+
+        .menu-tile,
+        .menu-tile:nth-child(1),
+        .menu-tile:nth-child(2),
+        .menu-tile:nth-child(3),
+        .menu-tile:nth-child(4) {
+          width: 100%;
+          min-width: 0;
+          min-height: 145px;
+          margin: 0;
+          padding: 15px 8px;
+          transform: none;
+          gap: 9px;
         }
+
+        .menu-tile:hover,
+        .menu-tile:focus-visible {
+          transform: translateY(-3px) scale(1.02);
+        }
+
         .tile-art {
-          width: 63px;
-          height: 58px;
+          width: clamp(42px, 10vw, 58px);
+          height: clamp(42px, 10vw, 58px);
         }
+
         .tile-label {
-          font-size: 17px;
+          font-size: clamp(15px, 3.8vw, 18px);
+          text-align: center;
         }
+
         .seal {
           width: 72px;
           height: 72px;
         }
+
         .seal span {
           font-size: 19px;
         }
       }
-      @media (max-width: 370px) {
-        .tile-grid {
-          grid-template-columns: 1fr;
+
+      @media (max-width: 380px) {
+        .view {
+          padding: 24px 12px;
         }
-        .menu-tile {
-          min-height: 126px;
+
+        .photo-collage {
+          height: 200px;
+          margin-top: 22px;
+        }
+
+        .collage-photo {
+          width: clamp(100px, 29vw, 118px);
+          height: auto;
+          padding: 7px 7px 27px;
+        }
+
+        .collage-photo::after {
+          inset: 7px 7px 26px;
+        }
+
+        .tile-grid {
+          gap: 10px;
+        }
+
+        .menu-tile,
+        .menu-tile:nth-child(1),
+        .menu-tile:nth-child(2),
+        .menu-tile:nth-child(3),
+        .menu-tile:nth-child(4) {
+          min-height: 128px;
+          padding: 12px 5px;
+        }
+
+        .tile-art {
+          width: 42px;
+          height: 42px;
+        }
+
+        .tile-label {
+          font-size: 14px;
+        }
+
+        .music-control {
+          margin-top: 8px;
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
         }
       }
+
       @media (prefers-reduced-motion: reduce) {
         *,
         *::before,
@@ -871,49 +991,16 @@
         }
       }
     </style>
-    <script
-      src="https://cdn.tailwindcss.com/3.4.17"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="/_sdk/570d53629f0b998d.data_sdk.js"
-      type="text/javascript"
-      integrity="sha512-JEN39+V+Nvv9ZZOVS8vNk1iA9ErZJHTdgOw9KzPuMiK7m0I+KPEr/wmTnCFIQVsDjCZgJWfGnFi1IQh2Io2qyA=="
-    ></script>
-    <script
-      src="/_sdk/1bf0420911972bb0.editing_sdk.js"
-      type="text/javascript"
-      integrity="sha512-QDwcKWm7BwRJmE1tAh/MeyuiHrZM/9sr7tNuiNU5twM0CAMVoomgFY95BBoUFykTfxRfioFT5u5mZtW249EGZw=="
-    ></script>
-    <script
-      src="/_sdk/c30df2f1b43bb1c9.resizing_sdk.js"
-      type="text/javascript"
-      integrity="sha512-D333Ts+f4grQi3QxtsDXggpMWmSBzoaq0HBneFnX5mKOM0DIqoMYROhGiQrAeQEiHtxcjverIEa7k6HIZXqXiA=="
-    ></script>
   </head>
-  <body
-    data-template-id="__page-root"
-    class="app-shell"
-    style="
-      background: linear-gradient(
-        145deg,
-        rgb(251, 246, 239),
-        rgb(247, 237, 228),
-        rgb(236, 215, 208)
-      );
-    "
-  >
+  <body class="app-shell">
     <img
-      data-template-id="page-floral-background"
-      class="canva-image page-floral-background"
-      loading="lazy"
+      class="page-floral-background"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
       tabindex="0"
       aria-label="Wedding floral background"
-      src="https://images.pexels.com/photos/21928747/pexels-photo-21928747.jpeg"
+      src="./imgs/main-bg.png"
       alt="Soft-focus bouquet of pastel pink and white wedding roses"
     />
     <main>
@@ -924,10 +1011,9 @@
       >
         <div class="landing-inner">
           <h1
-            data-template-id="landing-title"
-            class="canva-text serif landing-title"
+            class="serif landing-title"
             style="
-              color: rgb(137, 0, 37);
+              color: #54601b;
               font-weight: 400;
               font-style: normal;
               font-size: 85px;
@@ -937,23 +1023,22 @@
           </h1>
           <div
             id="envelope-scene"
-            class="envelope-scene canva-button"
+            class="envelope-scene"
             role="button"
             tabindex="0"
             aria-label="Open wedding invitation"
           >
             <div class="invitation-card" aria-hidden="true">
               <span
-                data-template-id="invitation-message"
-                class="canva-text invitation-message"
+                class="invitation-message"
                 style="
-                  color: rgb(137, 0, 37);
+                  color: #54601b;
                   font-weight: 700;
                   font-style: normal;
                   font-size: 39px;
                   letter-spacing: 0.055rem;
                 "
-                >A&amp;A</span
+                >A&amp;R</span
               >
               <svg
                 class="invitation-flourish"
@@ -981,25 +1066,23 @@
             </div>
             <div class="seal">
               <span
-                data-template-id="wax-initials"
-                class="canva-text"
+                class=""
                 style="
                   color: rgb(236, 215, 208);
                   font-weight: 500;
                   font-style: normal;
                   font-size: 23px;
                 "
-                >A &amp; A</span
+                >A &amp; R</span
               >
             </div>
           </div>
           <button
             type="button"
-            data-template-id="open-invitation-button"
             id="open-invitation-button"
-            class="canva-button primary-button"
+            class="primary-button"
             style="
-              background: rgb(137, 0, 37);
+              background: #54601b;
               color: rgb(236, 215, 208);
               font-weight: 600;
               font-style: normal;
@@ -1011,141 +1094,143 @@
         </div>
       </section>
       <section id="menu" class="view" aria-label="Main menu">
-        <button
-          type="button"
-          id="music-control"
-          class="music-control"
-          aria-label="Pause background music"
-          aria-pressed="false"
-        >
-          <svg
-            id="music-icon-pause"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.8"
-            aria-hidden="true"
-          >
-            <path d="M8 5v14M16 5v14" stroke-linecap="round"></path>
-          </svg>
-          <svg
-            id="music-icon-play"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.8"
-            aria-hidden="true"
-            style="display: none"
-          >
-            <path d="m8 5 11 7-11 7V5Z" stroke-linejoin="round"></path>
-          </svg>
-        </button>
         <div class="menu-inner">
-          <svg class="ornament mx-auto" viewBox="0 0 96 42" aria-hidden="true">
+          <svg
+            class="ornament"
+            viewBox="0 0 192 84"
+            aria-hidden="true"
+            style="width: 192px; height: 84px; max-width: 100%"
+          >
             <text
-              x="24"
-              y="35"
+              x="48"
+              y="70"
               fill="currentColor"
               font-family="Parisienne, Great Vibes, cursive"
-              font-size="42"
+              font-size="80"
               font-weight="400"
             >
               A
             </text>
             <text
-              x="48"
-              y="35"
-              fill="var(--peach)"
+              x="96"
+              y="70"
+              fill="#54601b"
               font-family="Parisienne, Great Vibes, cursive"
-              font-size="42"
+              font-size="80"
               font-weight="400"
             >
-              A
+              R
             </text>
           </svg>
           <h2
-            data-template-id="menu-names"
-            class="canva-text serif menu-names"
+            class="serif menu-names"
             tabindex="-1"
             style="
-              color: rgb(137, 0, 37);
+              font-family: &quot;Parisienne&quot;, cursive;
+              color: #db4453;
               font-weight: 500;
               font-style: normal;
-              font-size: 43px;
+              font-size: 45px;
             "
           >
-            Angelo &amp; Angela
+            You are invited to the wedding of
+          </h2>
+          <h2
+            class="serif menu-names"
+            tabindex="-1"
+            style="
+              color: #54601b;
+              font-weight: 500;
+              font-style: normal;
+              font-size: 50px;
+            "
+          >
+            ARHANA &amp; RISHABH
           </h2>
           <p
-            data-template-id="menu-subtitle"
-            class="canva-text menu-subtitle"
+            class="wedding-date"
             style="
-              color: rgb(137, 0, 37);
+              color: #54601b;
+              font-family: &quot;Parisienne&quot;, cursive;
               font-weight: 400;
               font-style: normal;
-              font-size: 40px;
-              letter-spacing: 0rem;
-            "
-          >
-            Join us as we celebrate our union with our families.
-          </p>
-          <p
-            data-template-id="wedding-date"
-            class="canva-text wedding-date"
-            style="
-              color: rgb(137, 0, 37);
-              font-weight: 400;
-              font-style: normal;
-              font-size: 28px;
+              font-size: 35px;
               letter-spacing: 0.045rem;
             "
           >
-            October 9, 2028
+            January 3, 2027
           </p>
-          <div class="menu-rule" aria-hidden="true"></div>
+          <audio
+            id="background-music"
+            src="./audio/ikaw at ako.mp3"
+            preload="none"
+            loop
+          ></audio>
+
+          <button
+            type="button"
+            id="music-control"
+            class="music-control"
+            aria-label="Pause background music"
+            aria-pressed="false"
+          >
+            <svg
+              id="music-icon-pause"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              aria-hidden="true"
+            >
+              <path d="M8 5v14M16 5v14" stroke-linecap="round"></path>
+            </svg>
+            <svg
+              id="music-icon-play"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              aria-hidden="true"
+              style="display: none"
+            >
+              <path d="m8 5 11 7-11 7V5Z" stroke-linejoin="round"></path>
+            </svg>
+          </button>
+
           <div class="photo-collage" aria-label="Wedding moments">
-            <div class="collage-photo collage-photo-one">
-              <img
-                data-template-id="collage-photo-1"
-                class="canva-image"
-                loading="lazy"
-                src="https://images.pexels.com/photos/38270664/pexels-photo-38270664.jpeg"
-                alt="Close-up of a couple holding hands, symbolizing love and unity, dressed in wedding attire."
-              />
-            </div>
             <div class="collage-photo collage-photo-two">
               <img
-                data-template-id="collage-photo-2"
-                class="canva-image"
+                class=""
+                src="./images/wedding-table.webp"
                 loading="lazy"
-                src="https://images.pexels.com/photos/7400865/pexels-photo-7400865.jpeg"
-                alt="Close-up of a wedding bouquet featuring roses and wedding rings, symbolizing romance and commitment."
+                decoding="async"
+                alt="Luxurious table setting featuring white roses, pink tulips, and candles for a sophisticated ambiance."
               />
             </div>
             <div class="collage-photo collage-photo-three">
               <img
-                data-template-id="collage-photo-3"
-                class="canva-image"
+                class=""
+                src="./images/couple-meadow.webp"
                 loading="lazy"
-                src="https://images.pexels.com/photos/25182724/pexels-photo-25182724.jpeg"
+                decoding="async"
                 alt="Bride and groom walking hand in hand on a picturesque meadow."
               />
             </div>
             <div class="collage-photo collage-photo-four">
               <img
-                data-template-id="collage-photo-4"
-                class="canva-image"
+                class=""
+                src="./images/bouquet-rings.webp"
                 loading="lazy"
-                src="https://images.pexels.com/photos/33911552/pexels-photo-33911552.jpeg"
-                alt="Luxurious table setting featuring white roses, pink tulips, and candles for a sophisticated ambiance."
+                decoding="async"
+                alt="Close-up of a wedding bouquet featuring roses and wedding rings, symbolizing romance and commitment."
               />
             </div>
           </div>
+
           <nav class="tile-grid" aria-label="Invitation sections">
             <button
               type="button"
-              class="menu-tile canva-card"
-              data-template-id="tile-story"
+              class="menu-tile"
               data-go="story"
               style="background: rgba(236, 215, 208, 0.72)"
             >
@@ -1161,21 +1246,19 @@
                   stroke-width="1.8"
                 ></path></svg
               ><span
-                data-template-id="tile-story-label"
-                class="canva-text tile-label"
+                class="tile-label"
                 style="
                   color: rgb(137, 0, 37);
                   font-weight: 500;
                   font-style: normal;
                   font-size: 20px;
                 "
-                >Love Story</span
+                >Our Love Story</span
               >
             </button>
             <button
               type="button"
-              class="menu-tile canva-card"
-              data-template-id="tile-entourage"
+              class="menu-tile"
               data-go="entourage"
               style="background: rgba(236, 215, 208, 0.72)"
             >
@@ -1191,8 +1274,7 @@
                   stroke-width="1.8"
                 ></path></svg
               ><span
-                data-template-id="tile-entourage-label"
-                class="canva-text tile-label"
+                class="tile-label"
                 style="
                   color: rgb(137, 0, 37);
                   font-weight: 500;
@@ -1204,8 +1286,7 @@
             </button>
             <button
               type="button"
-              class="menu-tile canva-card"
-              data-template-id="tile-details"
+              class="menu-tile"
               data-go="details"
               style="background: rgba(236, 215, 208, 0.72)"
             >
@@ -1221,8 +1302,7 @@
                   stroke-width="1.8"
                 ></path></svg
               ><span
-                data-template-id="tile-details-label"
-                class="canva-text tile-label"
+                class="tile-label"
                 style="
                   color: rgb(137, 0, 37);
                   font-weight: 500;
@@ -1234,8 +1314,7 @@
             </button>
             <button
               type="button"
-              class="menu-tile canva-card"
-              data-template-id="tile-rsvp"
+              class="menu-tile"
               data-go="rsvp"
               style="background: rgba(236, 215, 208, 0.72)"
             >
@@ -1251,8 +1330,7 @@
                   stroke-width="1.7"
                 ></path></svg
               ><span
-                data-template-id="tile-rsvp-label"
-                class="canva-text tile-label"
+                class="tile-label"
                 style="
                   color: rgb(137, 0, 37);
                   font-weight: 500;
@@ -1280,8 +1358,7 @@
             ></path>
           </svg>
           <h2
-            data-template-id="story-heading"
-            class="canva-text serif"
+            class="serif"
             tabindex="-1"
             style="
               color: rgb(137, 0, 37);
@@ -1294,8 +1371,7 @@
           </h2>
           <button
             type="button"
-            data-template-id="story-back"
-            class="canva-button back-button"
+            class="back-button"
             data-go="menu"
             style="
               background: transparent;
@@ -1324,8 +1400,7 @@
             ></path>
           </svg>
           <h2
-            data-template-id="entourage-heading"
-            class="canva-text serif"
+            class="serif"
             tabindex="-1"
             style="
               color: rgb(137, 0, 37);
@@ -1338,8 +1413,7 @@
           </h2>
           <button
             type="button"
-            data-template-id="entourage-back"
-            class="canva-button back-button"
+            class="back-button"
             data-go="menu"
             style="
               background: transparent;
@@ -1368,8 +1442,7 @@
             ></path>
           </svg>
           <h2
-            data-template-id="details-heading"
-            class="canva-text serif"
+            class="serif"
             tabindex="-1"
             style="
               color: rgb(137, 0, 37);
@@ -1382,8 +1455,7 @@
           </h2>
           <button
             type="button"
-            data-template-id="details-back"
-            class="canva-button back-button"
+            class="back-button"
             data-go="menu"
             style="
               background: transparent;
@@ -1412,8 +1484,7 @@
             ></path>
           </svg>
           <h2
-            data-template-id="rsvp-heading"
-            class="canva-text serif"
+            class="serif"
             tabindex="-1"
             style="
               color: rgb(137, 0, 37);
@@ -1426,8 +1497,7 @@
           </h2>
           <button
             type="button"
-            data-template-id="rsvp-back"
-            class="canva-button back-button"
+            class="back-button"
             data-go="menu"
             style="
               background: transparent;
@@ -1447,116 +1517,44 @@
       const musicControl = document.getElementById("music-control");
       const pauseIcon = document.getElementById("music-icon-pause");
       const playIcon = document.getElementById("music-icon-play");
-      let musicContext = null;
-      let musicTimer = null;
+      const backgroundMusic = document.getElementById("background-music");
       let musicPlaying = false;
-      function startMusic() {
+
+      function updateMusicButton(isPlaying) {
+        musicPlaying = isPlaying;
+        musicControl.setAttribute(
+          "aria-label",
+          isPlaying ? "Pause background music" : "Play background music",
+        );
+        musicControl.setAttribute("aria-pressed", String(!isPlaying));
+        pauseIcon.style.display = isPlaying ? "block" : "none";
+        playIcon.style.display = isPlaying ? "none" : "block";
+      }
+
+      async function startMusic() {
         if (musicPlaying) return;
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        if (!AudioContext) return;
-        if (!musicContext) musicContext = new AudioContext();
-        if (musicContext.state === "suspended") musicContext.resume();
-        const progression = [
-          [329.63, 415.3, 493.88, 622.25],
-          [277.18, 349.23, 415.3, 554.37],
-          [311.13, 392.0, 466.16, 622.25],
-          [246.94, 311.13, 369.99, 493.88],
-        ];
-        const guitarPattern = [0, 2, 1, 3, 1, 2, 0, 1];
-        const pianoPattern = [0, 1, 2, 3, 2, 1, 0, 2, 1, 3, 2, 0, 1, 2, 3, 1];
-        let step = 0;
-        const playNote = () => {
-          if (!musicPlaying) return;
-          const now = musicContext.currentTime;
-          const bar = Math.floor(step / 8);
-          const beat = step % 8;
-          const chord = progression[bar % progression.length];
-          const piano = musicContext.createOscillator();
-          const pianoGain = musicContext.createGain();
-          piano.type = "sine";
-          piano.frequency.value =
-            chord[pianoPattern[step % pianoPattern.length]] * 2;
-          pianoGain.gain.setValueAtTime(0.0001, now);
-          pianoGain.gain.exponentialRampToValueAtTime(0.048, now + 0.035);
-          pianoGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.72);
-          piano.connect(pianoGain).connect(musicContext.destination);
-          piano.start(now);
-          piano.stop(now + 0.5);
-          const guitar = musicContext.createOscillator();
-          const guitarGain = musicContext.createGain();
-          guitar.type = "triangle";
-          guitar.frequency.value = chord[guitarPattern[beat]] * 2;
-          guitarGain.gain.setValueAtTime(0.0001, now);
-          guitarGain.gain.exponentialRampToValueAtTime(0.018, now + 0.025);
-          guitarGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.34);
-          guitar.connect(guitarGain).connect(musicContext.destination);
-          guitar.start(now);
-          guitar.stop(now + 0.24);
-          if (beat === 0 || beat === 4) {
-            const bass = musicContext.createOscillator();
-            const bassGain = musicContext.createGain();
-            bass.type = "triangle";
-            bass.frequency.value = chord[0] / 2;
-            bassGain.gain.setValueAtTime(0.0001, now);
-            bassGain.gain.exponentialRampToValueAtTime(0.04, now + 0.025);
-            bassGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.55);
-            bass.connect(bassGain).connect(musicContext.destination);
-            bass.start(now);
-            bass.stop(now + 0.65);
-          }
-          if (beat % 2 === 0) {
-            chord.slice(1, 4).forEach((note, index) => {
-              const string = musicContext.createOscillator();
-              const stringGain = musicContext.createGain();
-              string.type = "sine";
-              string.frequency.value = note * (index + 2);
-              stringGain.gain.setValueAtTime(0.0001, now);
-              stringGain.gain.exponentialRampToValueAtTime(0.005, now + 0.18);
-              stringGain.gain.exponentialRampToValueAtTime(0.0001, now + 1.1);
-              string.connect(stringGain).connect(musicContext.destination);
-              string.start(now);
-              string.stop(now + 0.9);
-            });
-          }
-          const percussion = musicContext.createBufferSource();
-          const percussionGain = musicContext.createGain();
-          const buffer = musicContext.createBuffer(
-            1,
-            musicContext.sampleRate * 0.08,
-            musicContext.sampleRate,
-          );
-          const noise = buffer.getChannelData(0);
-          for (let i = 0; i < noise.length; i++)
-            noise[i] = (Math.random() * 2 - 1) * (1 - i / noise.length);
-          percussion.buffer = buffer;
-          percussionGain.gain.setValueAtTime(
-            beat === 0 || beat === 4 ? 0.026 : 0.012,
-            now,
-          );
-          percussionGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.08);
-          percussion.connect(percussionGain).connect(musicContext.destination);
-          percussion.start(now);
-          step++;
-        };
-        musicPlaying = true;
-        playNote();
-        musicTimer = window.setInterval(playNote, 420);
-        musicControl.setAttribute("aria-label", "Pause background music");
-        musicControl.setAttribute("aria-pressed", "false");
-        pauseIcon.style.display = "block";
-        playIcon.style.display = "none";
+        try {
+          await backgroundMusic.play();
+          updateMusicButton(true);
+        } catch (error) {
+          // Browsers may block playback until the visitor taps the music button.
+          updateMusicButton(false);
+        }
       }
+
       function stopMusic() {
-        musicPlaying = false;
-        window.clearInterval(musicTimer);
-        musicTimer = null;
-        musicControl.setAttribute("aria-label", "Play background music");
-        musicControl.setAttribute("aria-pressed", "true");
-        pauseIcon.style.display = "none";
-        playIcon.style.display = "block";
+        backgroundMusic.pause();
+        updateMusicButton(false);
       }
+
+      backgroundMusic.addEventListener("ended", () => updateMusicButton(false));
+      backgroundMusic.addEventListener("pause", () => {
+        if (!backgroundMusic.ended) updateMusicButton(false);
+      });
+      backgroundMusic.addEventListener("play", () => updateMusicButton(true));
+
       musicControl.addEventListener("click", () =>
-        musicPlaying ? stopMusic() : startMusic(),
+        backgroundMusic.paused ? startMusic() : stopMusic(),
       );
       function showView(id) {
         const next = document.getElementById(id);
@@ -1566,7 +1564,7 @@
         const focusTarget =
           next.querySelector('[tabindex="-1"]') || next.querySelector("button");
         if (focusTarget) focusTarget.focus({ preventScroll: true });
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        window.scrollTo({ top: 0, behavior: "auto" });
       }
       const envelopeScene = document.getElementById("envelope-scene");
       let opening = false;
