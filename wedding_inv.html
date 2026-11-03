@@ -1970,6 +1970,96 @@
           transition: none;
         }
       }
+
+      /* WEDDING COUNTDOWN */
+      .rsvp-countdown {
+        margin: 0 auto 24px;
+        padding: 25px 18px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.75);
+        border: 1px solid rgba(137, 0, 37, 0.2);
+        border-radius: 4px;
+        text-align: center;
+      }
+
+      .rsvp-countdown h3 {
+        margin: 0 0 8px;
+        color: rgb(137, 0, 37);
+        font-family: "Playfair Display", serif;
+        font-size: 21px;
+        font-weight: 500;
+      }
+
+      .countdown-date {
+        margin: 0 0 22px;
+        color: #78655e;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+
+      .countdown-container {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        max-width: 420px;
+        margin: 0 auto;
+      }
+
+      .countdown-item {
+        padding: 15px 5px;
+        background: #f7ede4;
+        border: 1px solid rgba(137, 0, 37, 0.2);
+        border-radius: 4px;
+      }
+
+      .countdown-item span {
+        display: block;
+        color: rgb(137, 0, 37);
+        font-family: "Playfair Display", serif;
+        font-size: clamp(25px, 5vw, 36px);
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      .countdown-item small {
+        display: block;
+        margin-top: 7px;
+        color: #78655e;
+        font-family: "DM Sans", sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+      .countdown-message {
+        margin: 20px 0 0;
+        color: rgb(137, 0, 37);
+        font-family: "Playfair Display", serif;
+        font-size: 13px;
+        font-style: italic;
+        line-height: 1.7;
+      }
+
+      /* MOBILE COUNTDOWN */
+      @media (max-width: 380px) {
+        .rsvp-countdown {
+          padding: 22px 12px;
+        }
+
+        .countdown-container {
+          gap: 6px;
+        }
+
+        .countdown-item {
+          padding: 12px 3px;
+        }
+
+        .countdown-item small {
+          font-size: 9px;
+          letter-spacing: 0.5px;
+        }
+      }
     </style>
   </head>
   <body class="app-shell">
@@ -2018,7 +2108,7 @@
                   font-size: 39px;
                   letter-spacing: 0.055rem;
                 "
-                >M &amp; R</span
+                >R &amp; M</span
               >
               <svg
                 class="invitation-flourish"
@@ -2053,7 +2143,7 @@
                   font-style: normal;
                   font-size: 23px;
                 "
-                >M &amp; R</span
+                >R &amp; M</span
               >
             </div>
           </div>
@@ -2089,7 +2179,7 @@
               font-size="50"
               font-weight="400"
             >
-              M
+              R
             </text>
             <text
               x="96"
@@ -2099,7 +2189,7 @@
               font-size="50"
               font-weight="400"
             >
-              R
+              M
             </text>
           </svg>
           <h2
@@ -2125,7 +2215,7 @@
               font-size: 50px;
             "
           >
-            MARYL &amp; RON
+            RON &amp; MARYL
           </h2>
           <p
             class="wedding-date"
@@ -2195,7 +2285,7 @@
             <div class="collage-photo collage-photo-two">
               <img
                 class=""
-                src="./imgs/1.jpg"
+                src="./imgs/img5.jpg"
                 loading="lazy"
                 decoding="async"
                 alt="image 4"
@@ -2204,7 +2294,7 @@
             <div class="collage-photo collage-photo-three">
               <img
                 class=""
-                src="./imgs/2.jpg"
+                src="./imgs/img4.jpg"
                 loading="lazy"
                 decoding="async"
                 alt="image 2"
@@ -2213,7 +2303,7 @@
             <div class="collage-photo collage-photo-four">
               <img
                 class=""
-                src="./imgs/3.jpg"
+                src="./imgs/img3.jpg"
                 loading="lazy"
                 decoding="async"
                 alt="image 3"
@@ -2221,7 +2311,7 @@
             </div>
             <div class="collage-photo collage-photo-five">
               <img
-                src="./imgs/4.jpg"
+                src="./imgs/img6.jpg"
                 loading="lazy"
                 decoding="async"
                 alt="Wedding moment five."
@@ -2230,7 +2320,7 @@
 
             <div class="collage-photo collage-photo-six">
               <img
-                src="./imgs/4.jpg"
+                src="./imgs/img1.jpg"
                 loading="lazy"
                 decoding="async"
                 alt="Wedding moment six."
@@ -2360,14 +2450,11 @@
           <!-- Polaroid Photos -->
           <div class="story-photos">
             <div class="story-polaroid story-polaroid-left">
-              <img src="images/couple-1.jpg" alt="A special moment together" />
+              <img src="imgs/img8.jpg" alt="A special moment together" />
             </div>
 
             <div class="story-polaroid story-polaroid-right">
-              <img
-                src="images/couple-2.jpg"
-                alt="A cherished memory together"
-              />
+              <img src="imgs/img9.jpg" alt="A cherished memory together" />
             </div>
           </div>
 
@@ -2463,7 +2550,12 @@
               <p>Chance Taskey</p>
             </div>
 
-            <div class="entourage-card">
+            <!-- <div class="entourage-card">
+              <h3>Maid of Honor</h3>
+              <p>Shamie Lou Anonas</p>
+            </div> -->
+
+            <div class="entourage-card entourage-card-wide">
               <h3>Maid of Honor</h3>
               <p>Shamie Lou Anonas</p>
             </div>
@@ -2578,30 +2670,21 @@
             <!-- Three Dress Code Photo Slots -->
             <div class="dress-code-photos">
               <div class="dress-photo-slot">
-                <img
-                  src="images/dress-code-1.jpg"
-                  alt="Dress code inspiration 1"
-                />
+                <img src="imgs/dresscode1.png" alt="Dress code inspiration 1" />
               </div>
 
               <div class="dress-photo-slot">
-                <img
-                  src="images/dress-code-2.jpg"
-                  alt="Dress code inspiration 2"
-                />
+                <img src="imgs/dresscode2.png" alt="Dress code inspiration 2" />
               </div>
 
               <div class="dress-photo-slot">
-                <img
-                  src="images/dress-code-3.jpg"
-                  alt="Dress code inspiration 3"
-                />
+                <img src="imgs/dresscode3.png" alt="Dress code inspiration 3" />
               </div>
             </div>
 
             <div class="dress-code-card">
               <h4>Ladies</h4>
-              <p class="dress-code-main">Midi or maxi dresses</p>
+              <p class="dress-code-main">Maxi/Long Dress</p>
               <p>Bright, bold, pastel, and floral colors are welcome.</p>
               <p class="dress-code-note">Please avoid white.</p>
             </div>
@@ -2675,6 +2758,39 @@
             confirm your attendance through our RSVP form.
           </p>
 
+          <!-- WEDDING COUNTDOWN -->
+          <div class="rsvp-countdown">
+            <h3>Counting Down to Our Special Day</h3>
+
+            <p class="countdown-date">January 3, 2027 · 4:00 PM</p>
+
+            <div class="countdown-container" id="wedding-countdown">
+              <div class="countdown-item">
+                <span id="countdown-days">00</span>
+                <small>Days</small>
+              </div>
+
+              <div class="countdown-item">
+                <span id="countdown-hours">00</span>
+                <small>Hours</small>
+              </div>
+
+              <div class="countdown-item">
+                <span id="countdown-minutes">00</span>
+                <small>Minutes</small>
+              </div>
+
+              <div class="countdown-item">
+                <span id="countdown-seconds">00</span>
+                <small>Seconds</small>
+              </div>
+            </div>
+
+            <p class="countdown-message" id="countdown-message">
+              Every moment brings us closer together.
+            </p>
+          </div>
+
           <!-- PLUS-ONE POLICY -->
           <div class="rsvp-info-card">
             <h3>The Plus-One Policy</h3>
@@ -2709,7 +2825,7 @@
 
             <a
               class="rsvp-form-button"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSelaJgEI2Wwy9S29B4EGUuCqG5KdgfZPzE038a7UoAETOue3g/viewform?usp=publish-editor"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSelB1nXdmxDE2PeXDN71vv01wHO60PUz5XDtjX-LlzG2SiVaw/viewform?usp=publish-editor"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -2807,6 +2923,49 @@
       document.querySelectorAll("[data-go]").forEach((button) => {
         button.addEventListener("click", () => showView(button.dataset.go));
       });
+
+      // WEDDING COUNTDOWN
+      const weddingDate = new Date("2027-01-03T16:00:00+08:00").getTime();
+
+      const countdownInterval = setInterval(() => {
+        const now = new Date().getTime();
+        const distance = weddingDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+        );
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        if (distance <= 0) {
+          clearInterval(countdownInterval);
+
+          document.getElementById("wedding-countdown").innerHTML =
+            '<div class="countdown-message" style="grid-column: 1 / -1; font-size: 20px;">Today is the day! We are getting married! ♥</div>';
+
+          document.getElementById("countdown-message").textContent =
+            "Thank you for being part of our special day.";
+
+          return;
+        }
+
+        document.getElementById("countdown-days").textContent = String(
+          days,
+        ).padStart(2, "0");
+
+        document.getElementById("countdown-hours").textContent = String(
+          hours,
+        ).padStart(2, "0");
+
+        document.getElementById("countdown-minutes").textContent = String(
+          minutes,
+        ).padStart(2, "0");
+
+        document.getElementById("countdown-seconds").textContent = String(
+          seconds,
+        ).padStart(2, "0");
+      }, 1000);
     </script>
   </body>
 </html>
